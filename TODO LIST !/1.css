@@ -1,0 +1,43 @@
+.app ul {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+  }
+  
+  .app ul li {
+    padding: 10px;
+    background-color: #262e4c;
+    border-bottom: 1px solid #3a4674;
+  }
+  
+  .check {
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    -webkit-appearance: none;
+  }
+  
+  .check:checked {
+    background-color: #1dd2af;
+  }
+  
+  .task {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  
+  .task:focus {
+    outline: none;
+  }
+  
+  .app ul li i {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .app ul li i:hover {
+    color: rgb(255, 82, 82);
+  }
